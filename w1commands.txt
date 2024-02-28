@@ -1,0 +1,14 @@
+hdfs dfs -mkdir
+hdfs dfs -touchz
+hdfs dfs -put
+hdfs dfs -get
+hdfs dfs -cat
+hdfs dfs -du or -du -s -h
+hdfs dfs -grep -R 7
+hdfs dfs -chmod or -chown
+hdfs dfs -checksum
+hdfs dfs -concat
+hdfs dfs -gzip 
+hdfs dfs -fsck -files -block -location 
+hdfs dfs -key create key1
+hdfs dfs -encrypt -keyName key1
